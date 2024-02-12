@@ -5,6 +5,7 @@ let gameMode = 1; // 1 is for single Player; 2 is for 2 Players
 let board_full = false;
 let ai_level;
 let lastMove = null; // Variable to store the last move
+let myTestVaribale = 1
 
 const render_board = () => {
     const board_container = document.querySelector(".play-area");
